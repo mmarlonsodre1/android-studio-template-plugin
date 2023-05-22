@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+    <!--
+    Each <plugin> element (required) describes one plugin in the repository.
+    Attributes:
+     - "id" (required) - used by JetBrains IDEs to uniquely identify
+       a plugin. Must match <id> in the plugin.xml file.
+     - "url" (required) - URL to download the plugin JAR/ZIP file.
+       Must be HTTPS.
+     - "version" (required) - version of this plugin. Must match <version>
+       in the plugin.xml file.
+    -->
+    <plugin
+            id="br.com.ioasys.templateproject"
+            url="https://github.com/mmarlonsodre1/android-studio-template-plugin/blob/main/instrumented-template-project-1.0-SNAPSHOT.jar"
+            version="major.minor.update">
+        <!--
+        The <idea-version> element (required) must match the same element
+        in the plugin.xml file.
+        -->
+        <idea-version since-build="1.0.0" until-build="1.*"/>
+    </plugin>
+</plugins>
