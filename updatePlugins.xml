@@ -12,7 +12,7 @@
     -->
     <plugin
             id="br.com.ioasys.templateproject"
-            url="https://github.com/mmarlonsodre1/android-studio-template-plugin/blob/main/instrumented-template-project-1.0-SNAPSHOT.jar"
+            url="https://github.com/mmarlonsodre1/android-studio-template-plugin/raw/main/instrumented-template-project-1.0-SNAPSHOT.jar"
             version="major.minor.update">
         <!--
         The <idea-version> element (required) must match the same element
